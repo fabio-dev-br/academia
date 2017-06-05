@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class patrimoniocontroller extends Controller
 {
     public function index () {
-        return view(patrimonio.lista)
+        return view(patrimonio.lista);
     }
 
 }

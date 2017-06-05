@@ -42,7 +42,7 @@
 							<li><a href="<?php echo e(url('/funcionarios')); ?>">Funcionários</a></li>
 							<li><a href="<?php echo e(url('/usuarios')); ?>">Usuários</a></li>
 							<li><a href="<?php echo e(url('/salas')); ?>">Salas</a></li>
-                            <li><a href="<?php echo e(url('/Patrimônimo')); ?>">Patrimônio</a></li>
+                            <li><a href="<?php echo e(url('/patrimonio')); ?>">patrimonio</a></li>
                             <li><a href="<?php echo e(url('/Despesas')); ?>">Despesas</a></li>
 						<?php endif; ?>
 					</ul>

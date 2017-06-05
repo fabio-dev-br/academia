@@ -41,12 +41,16 @@ Route::post('usuarios/salvar', 'UsuariosController@salvar');
 Route::patch('usuarios/{usuario}', 'UsuariosController@atualizar');
 Route::delete('usuarios/{usuario}', 'UsuariosController@deletar');
 
+Route::get('patrimonio', 'patrimonioController@index');
+
 Route::get('salas', 'SalasController@index');
 Route::get('salas/novo', 'SalasController@novo');
 Route::get('salas/{sala}/editar', 'SalasController@editar');
 Route::post('salas/salvar', 'SalasController@salvar');
 Route::patch('salas/{sala}', 'SalasController@atualizar');
 Route::delete('salas/{sala}', 'SalasController@deletar');
+
+
 
 Auth::routes();
 
