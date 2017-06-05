@@ -34,7 +34,13 @@
                         {!! Form::input('text', 'numerocarteira', null, ['class' => 'form-control', 'placeholder' => 'Numero da Carteira de Trabalho'])!!}
 
                         {!! Form::label('cargo', 'Cargo')!!}
-                        {!! Form::input('text', 'cargo', null, ['class' => 'form-control', 'placeholder' => 'Cargo'])!!}
+                        <select name="cargo" class="form-control">
+                            <option value="Administrador">Administrador</option>
+                            <option value="Atendente">Atendente</option>
+                            <option value="Instrutor">Instrutor</option>
+                            <option value="Personal Trainer">Personal Trainer</option>
+                            <option value="Outro">Outro</option>
+                        </select>
 
                         {!! Form::label('datanascimento', 'Data de Nascimento')!!}
                         {!! Form::input('text', 'datanascimento', null, ['class' => 'form-control', 'placeholder' => 'Data de Nascimento'])!!}
@@ -52,10 +58,20 @@
                         {!! Form::input('text', 'email', null, ['class' => 'form-control', 'placeholder' => 'Email'])!!}
 
                         {!! Form::label('sexo', 'Sexo')!!}
-                        {!! Form::input('text', 'sexo', null, ['class' => 'form-control', 'placeholder' => 'Sexo'])!!}
+                        <select name="sexo" class="form-control">
+                            <option value="Feminino">Feminino</option>
+                            <option value="Masculino">Masculino</option>
+                        </select>
 
                         {!! Form::label('carga', 'Carga Horária')!!}
-                        {!! Form::input('text', 'carga', null, ['class' => 'form-control', 'placeholder' => 'Carga Horária'])!!}
+                            <select name="cargo" class="form-control">
+                                <option value="4 horas">4 HORAS</option>
+                                <option value="5 horas">5 HORAS</option>
+                                <option value="6 horas">6 HORAS</option>
+                                <option value="7 horas">7 HORAS</option>
+                                <option value="8 horas">8 HORAS</option>
+                                <option value="9 horas">9 HORAS</option>
+                            </select>
 
                         {!! Form::submit ('Salvar', ['class'=>'btn btn-primary'])!!}
                         {!! Form::close()!!}
