@@ -1,30 +1,19 @@
-<?php
+@extends('layouts.app')
 
-namespace App\Http\Controllers;
+@section('content')
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Patrimônios SISGEFIT</div>
 
-use Illuminate\Http\Request;
-
-class HomeController extends Controller
-{
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        return view('home');
-    }
-}
+                    <div class="panel-body">
+                        Aqui você pode inserir, alterar e remover um patrimonio da academia!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
 
 
