@@ -27,13 +27,13 @@
                         {!! Form::input('text', 'codigo', null, ['class' => 'form-control', 'autofocus', 'placeholder' => 'Código da Sala'])!!}
 
                         {!! Form::label('situacao', 'Situação da Sala')!!}
-                            <select name="situacao" class="form-control">
-                                <option value=""></option>
-                                <option value="Livre">Livre</option>
-                                <option value="Em Manutenção">Em Manutenção</option>
-                                <option value="Fechado para limpeza">Fechado para limpeza</option>
-                                <option value="Em uso">Em uso</option>
-                            </select>
+                        <select name="situacao" class="form-control">
+                            <option value=""></option>
+                            <option value="Livre">Livre</option>
+                            <option value="Em Manutenção">Em Manutenção</option>
+                            <option value="Fechado para limpeza">Fechado para limpeza</option>
+                            <option value="Em uso">Em uso</option>
+                        </select>
 
                         {!! Form::label('nomepersonal', 'Nome do Personal Trainer')!!}
                         {!! Form::input('text', 'nomepersonal', null, ['class' => 'form-control', 'placeholder' => 'Nome do Personal Trainer'])!!}
