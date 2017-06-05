@@ -35,6 +35,7 @@
 
                         {!! Form::label('cargo', 'Cargo')!!}
                         <select name="cargo" class="form-control">
+                            <option value=""></option>
                             <option value="Administrador">Administrador</option>
                             <option value="Atendente">Atendente</option>
                             <option value="Instrutor">Instrutor</option>
@@ -59,12 +60,14 @@
 
                         {!! Form::label('sexo', 'Sexo')!!}
                         <select name="sexo" class="form-control">
+                            <option value=""></option>
                             <option value="Feminino">Feminino</option>
                             <option value="Masculino">Masculino</option>
                         </select>
 
                         {!! Form::label('carga', 'Carga Horária')!!}
                             <select name="cargo" class="form-control">
+                                <option value=""></option>
                                 <option value="4 horas">4 HORAS</option>
                                 <option value="5 horas">5 HORAS</option>
                                 <option value="6 horas">6 HORAS</option>
