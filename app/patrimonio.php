@@ -4,7 +4,7 @@ namespace App;
 
 use illuminate\Database\Eloquent\Model;
 
-class patrimonio extends Model
+class Patrimonio extends Model
 {
     protected $fillable = [
         'nome',
