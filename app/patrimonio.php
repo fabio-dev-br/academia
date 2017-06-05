@@ -9,7 +9,6 @@ class Patrimonio extends Model
     protected $fillable = [
         'nome',
         'numero'
-
     ];
 
 }

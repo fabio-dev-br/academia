@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Funcionario;
 use App\Patrimonio;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
