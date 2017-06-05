@@ -20,10 +20,7 @@ Auth::routes();
 
 Route::get('home', 'HomeController@index')->name('home');
 
-<<<<<<< HEAD
-
-=======
-Route::get('patrimonios', 'PatrimoniossController@index');
+Route::get('patrimonios', 'PatrimoniosController@index');
 Route::get('patrimonios/novo', 'PatrimoniosController@novo');
 Route::get('patrimonios/{patrimonio}/editar', 'PatrimoniosController@editar');
 Route::post('patrimonios/salvar', 'PatrimoniosController@salvar');
@@ -31,7 +28,6 @@ Route::patch('patrimonios/{patrimonio}', 'PatrimoniosController@atualizar');
 Route::delete('patrimonios/{patrimonio}', 'PatrimoniosController@deletar');
 
 Route::get('despesas', 'DespesasController@index');
->>>>>>> d19bbefc0c98b9ba617e1b4d8e9d8a39db143e10
 Route::get('despesas', 'DespesasController@index');
 Route::get('despesas/novo', 'DespesasController@novo');
 Route::get('despesas/{despesa}/editar', 'DespesasController@editar');
@@ -39,7 +35,7 @@ Route::post('despesas/salvar', 'DespesasController@salvar');
 Route::patch('despesas/{despesa}', 'DespesasController@atualizar');
 Route::delete('despesas/{despesa}', 'DespesasController@deletar');
 
-Route::get('clientes', 'ClientesController@index');//->name('home');
+Route::get('clientes', 'ClientesController@index');
 Route::get('clientes/novo', 'ClientesController@novo');
 Route::get('clientes/{cliente}/editar', 'ClientesController@editar');
 Route::post('clientes/salvar', 'ClientesController@salvar');

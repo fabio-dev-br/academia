@@ -16,13 +16,15 @@
 
                         <table class="table">
                             <th>Nome</th>
-                            <th>numero</th>
+                            <th>Número</th>
+                            <th>Quantidade</th>
                             <th>Ações</th>
                             <tbody>
                             @foreach($patrimonios as $patrimonio)
                                 <tr>
                                     <td>{{$patrimonio->nome}}</td>
                                     <td>{{$patrimonio->numero}}</td>
+                                    <td>{{$patrimonio->quantidade}}</td>
                                     <td>
                                         <a href="patrimonios/{{$patrimonio->id}}/editar" class="btn btn-default btn-sm">Editar</a>
                                         {!! Form::open(['style' => 'display: inline', 'method' => 'DELETE', 'url' => '/patrimonios/'.$patrimonio->id]) !!}
