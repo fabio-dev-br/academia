@@ -27,7 +27,7 @@
                         {!! Form::input('text', 'codigo', null, ['class' => 'form-control', 'autofocus', 'placeholder' => 'Código da Sala'])!!}
 
                         {!! Form::label('situacao', 'Situação da Sala')!!}
-                            <select name="sexo" class="form-control">
+                            <select name="situacao" class="form-control">
                                 <option value=""></option>
                                 <option value="Livre">Livre</option>
                                 <option value="Em Manutenção">Em Manutenção</option>
