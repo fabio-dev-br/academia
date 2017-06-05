@@ -14033,3 +14033,6 @@ Stack trace:
 Stack trace:
 #0 {main}  
 >>>>>>> 500916421082c03503d23bee57b67154a7ef6892
+[2017-06-05 16:35:52] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\Despesas' not found' in C:\Users\Daniel\Documents\GitHub\academia\app\Http\Controllers\DespesasController.php:11
+Stack trace:
+#0 {main}  
