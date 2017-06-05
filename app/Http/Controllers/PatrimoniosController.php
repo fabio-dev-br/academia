@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a9b9b89b1b59e4b9b89cdd6cfd6f1907cc403488
 use App\Patrimonio;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
@@ -21,31 +25,31 @@ class PatrimoniosController extends Controller
 
     public function salvar(Request $request)
     {
-        $patrimonio = new patrimonio();
+        $patrimonio = new Patrimonio();
 
         $patrimonio = $patrimonio->create($request->all());
 
-        \Session::flash('mensagem_sucesso', 'patrimonio cadastrado com sucesso!');
+        \Session::flash('mensagem_sucesso', 'patrimonios cadastrado com sucesso!');
 
         return Redirect::to('patrimonios/novo');
     }
     public function editar($id)
     {
         $patrimonio = Patrimonio::findOrFail($id);
-        return view('patrimonios.formulario', ['patrimonio' => $patrimonio]);
+        return view('patrimonios.formulario', ['patrimonios' => $patrimonio]);
     }
     public function atualizar($id, Request $request)
     {
         $patrimonio = Patrimonio::findOrFail($id);
         $patrimonio->update($request->all());
-        \Session::flash('mensagem_sucesso', 'patrimonio atualizado com sucesso!');
+        \Session::flash('mensagem_sucesso', 'Patrimonio atualizado com sucesso!');
         return Redirect::to('patrimonios/'.$patrimonio->id.'/editar');
     }
     public function deletar($id)
     {
         $patrimonio = Patrimonio::findOrFail($id);
-        $Patrimonio->delete();
+        $patrimonio->delete();
         \Session::flash('mensagem_sucesso', 'Patrimonio deletado com sucesso!');
-        return Redirect::to('Patrimonios/');
+        return Redirect::to('patrimonios/');
     }
 }

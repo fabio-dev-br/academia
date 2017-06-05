@@ -6,8 +6,8 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        Informe abaixo as informações do patrimonio
-                        <a class="pull-right" href="{{ url ('patrimonios')}}">Listagem patrimonios</a>
+                        Informe abaixo as informações do patrimônio
+                        <a class="pull-right" href="{{ url ('patrimonios')}}">Listagem patrimônios</a>
                     </div>
 
                     <div class="panel-body">
