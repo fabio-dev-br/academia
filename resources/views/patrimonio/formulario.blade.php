@@ -7,7 +7,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         Informe abaixo as informações do patrimonio
-                        <a class="pull-right" href="{{ url ('patrimonios')}}">Listagem patrimonio</a>
+                        <a class="pull-right" href="{{ url ('patrimonios')}}">Listagem patrimonios</a>
                     </div>
 
                     <div class="panel-body">
@@ -16,10 +16,11 @@
                         @endif
 
                         @if(Request::is('*/editar'))
-                            {!! Form::model($patrimonio, ['method' => 'PATCH', 'url' => 'patrimonio/'.$patrimonio->id])!!}
+                            {!! Form::model($patrimonio, ['method' => 'PATCH', 'url' => 'patrimonios/'.$patrimonio->id])!!}
                         @else
                             {!! Form::open(['url' => 'patrimonios/salvar']) !!}
                         @endif
+
 
                         {!! Form::open(['url' => 'patrimonios/salvar'])!!}
 
@@ -28,6 +29,7 @@
 
                         {!! Form::label('numero', 'numero')!!}
                         {!! Form::input('text', 'numero', null, ['class' => 'form-control', 'placeholder' => 'numero'])!!}
+
 
                         {!! Form::submit ('Salvar', ['class'=>'btn btn-primary'])!!}
                         {!! Form::close()!!}
