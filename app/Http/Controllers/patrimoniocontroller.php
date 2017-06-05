@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Cliente;
+<<<<<<< HEAD
 use App\patrimonio;
+=======
+>>>>>>> 0cbf2305b93b51b515a324e7174bdea33ee65007
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 
@@ -11,7 +14,11 @@ class PatrimonioController extends Controller
 {
     public function index()
     {
+<<<<<<< HEAD
         $patrimonio = patrimonio::get();
+=======
+        $patrimonios = patrimonio::get();
+>>>>>>> 0cbf2305b93b51b515a324e7174bdea33ee65007
         return view('patrimonio.lista', ['patrimonios' => $patrimonios]);
     }
 

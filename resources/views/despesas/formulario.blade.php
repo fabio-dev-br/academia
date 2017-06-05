@@ -32,8 +32,8 @@
                         {!! Form::label('valor', 'Valor')!!}
                         {!! Form::input('text', 'valor', null, ['class' => 'form-control', 'placeholder' => 'Valor'])!!}
 
-                        {!! Form::label('data de vencimento', 'Data de Vencimento')!!}
-                        {!! Form::input('text', 'data de vencimento', null, ['class' => 'form-control', 'placeholder' => 'Data de Vencimento'])!!}
+                        {!! Form::label('datadevencimento', 'Data de Vencimento')!!}
+                        {!! Form::input('text', 'datadevencimento', null, ['class' => 'form-control', 'placeholder' => 'Data de Vencimento'])!!}
 
                         {!! Form::submit ('Salvar', ['class'=>'btn btn-primary'])!!}
                         {!! Form::close()!!}

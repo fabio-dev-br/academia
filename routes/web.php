@@ -21,6 +21,12 @@ Auth::routes();
 Route::get('home', 'HomeController@index')->name('home');
 
 Route::get('despesas', 'DespesasController@index');
+Route::get('despesas', 'DespesasController@index');
+Route::get('despesas/novo', 'DespesasController@novo');
+Route::get('despesas/{despesa}/editar', 'DespesasController@editar');
+Route::post('despesas/salvar', 'DespesasController@salvar');
+Route::patch('despesas/{despesa}', 'DespesasController@atualizar');
+Route::delete('despesas/{despesa}', 'DespesasController@deletar');
 
 Route::get('clientes', 'ClientesController@index');//->name('home');
 Route::get('clientes/novo', 'ClientesController@novo');

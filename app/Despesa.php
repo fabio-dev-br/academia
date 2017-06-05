@@ -10,7 +10,7 @@ class Despesa extends Model
         'tipo',
         'descrição',
         'valor',
-        'data de vencimento',
+        'datadevencimento',
     ];
 
 }

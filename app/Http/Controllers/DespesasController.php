@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Funcionario;
+use App\Despesa;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 
@@ -21,9 +21,9 @@ class DespesasController extends Controller
 
     public function salvar(Request $request)
     {
-        $despesas = new Despesas();
+        $despesa = new Despesa();
 
-        $despesas = $despesas->create($request->all());
+        $despesa = $despesa->create($request->all());
 
         \Session::flash('mensagem_sucesso', 'Despesa cadastrada com sucesso!');
 
@@ -31,7 +31,7 @@ class DespesasController extends Controller
     }
     public function editar($id)
     {
-        $despesas = Despesas::findOrFail($id);
+        $despesa = Despesa::findOrFail($id);
         return view('despesas.formulario', ['despesa' => $despesa]);
     }
     public function atualizar($id, Request $request)
