@@ -20,15 +20,15 @@
                             <th>Valor</th>
                             <th>Data de Vencimento</th>
                             <tbody>
-                            @foreach($despesas as $despesas)
+                            @foreach($despesas as $despesa)
                                 <tr>
-                                    <td>{{$despesas->tipo}}</td>
-                                    <td>{{$despesas->descrição}}</td>
-                                    <td>{{$despesas->valor}}</td>
-                                    <td>{{$despesas->datadevencimento}}</td>
+                                    <td>{{$despesa->tipo}}</td>
+                                    <td>{{$despesa->descrição}}</td>
+                                    <td>{{$despesa->valor}}</td>
+                                    <td>{{$despesa->datadevencimento}}</td>
                                     <td>
-                                        <a href="despesas/{{$despesas->id}}/editar" class="btn btn-default btn-sm">Editar</a>
-                                        {!! Form::open(['style' => 'display: inline', 'method' => 'DELETE', 'url' => '/despesas/'.$despesas->id]) !!}
+                                        <a href="despesas/{{$despesa->id}}/editar" class="btn btn-default btn-sm">Editar</a>
+                                        {!! Form::open(['style' => 'display: inline', 'method' => 'DELETE', 'url' => '/despesas/'.$despesa->id]) !!}
                                         <button type="submit" class="btn btn-default btn-sm">Excluir</button>
                                         {!! Form::close() !!}
                                     </td>

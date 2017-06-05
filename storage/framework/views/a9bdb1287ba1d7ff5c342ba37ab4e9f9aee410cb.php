@@ -42,8 +42,13 @@
 							<li><a href="<?php echo e(url('/funcionarios')); ?>">Funcionários</a></li>
 							<li><a href="<?php echo e(url('/usuarios')); ?>">Usuários</a></li>
 							<li><a href="<?php echo e(url('/salas')); ?>">Salas</a></li>
+<<<<<<< HEAD
+                            <li><a href="<?php echo e(url('/patrimonio')); ?>">Patrimonio</a></li>
+                            <li><a href="<?php echo e(url('/despesas')); ?>">Despesas</a></li>
+=======
                             <li><a href="<?php echo e(url('/patrimonio')); ?>">Patrimônio</a></li>
                             <li><a href="<?php echo e(url('/Despesas')); ?>">Despesas</a></li>
+>>>>>>> 500916421082c03503d23bee57b67154a7ef6892
 						<?php endif; ?>
 					</ul>
 

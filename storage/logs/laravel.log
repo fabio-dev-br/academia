@@ -14045,3 +14045,15 @@ Stack trace:
 [2017-06-05 17:19:59] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\Despesas' not found' in C:\Users\Daniel\Documents\GitHub\academia\app\Http\Controllers\DespesasController.php:13
 Stack trace:
 #0 {main}  
+[2017-06-05 17:21:41] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\Despesas' not found' in C:\Users\Daniel\Documents\GitHub\academia\app\Http\Controllers\DespesasController.php:13
+Stack trace:
+#0 {main}  
+[2017-06-05 17:21:47] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\Despesas' not found' in C:\Users\Daniel\Documents\GitHub\academia\app\Http\Controllers\DespesasController.php:13
+Stack trace:
+#0 {main}  
+[2017-06-05 17:28:46] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\Despesas' not found' in C:\Users\Daniel\Documents\GitHub\academia\app\Http\Controllers\DespesasController.php:13
+Stack trace:
+#0 {main}  
+[2017-06-05 17:29:34] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\Despesas' not found' in C:\Users\Daniel\Documents\GitHub\academia\app\Http\Controllers\DespesasController.php:13
+Stack trace:
+#0 {main}  

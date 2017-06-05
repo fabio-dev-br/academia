@@ -10,7 +10,7 @@ class DespesasController extends Controller
 {
     public function index()
     {
-        $despesas = Despesas::get();
+        $despesas = Despesa::get();
         return view('despesas.lista', ['despesas' => $despesas]);
     }
 

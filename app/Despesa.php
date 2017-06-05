@@ -4,15 +4,13 @@ namespace App;
 
 use illuminate\Database\Eloquent\Model;
 
-class Cliente extends Model
+class Despesa extends Model
 {
     protected $fillable = [
         'tipo',
         'descrição',
         'valor',
         'data de vencimento',
-        'telefone',
-        'sexo'
     ];
 
 }

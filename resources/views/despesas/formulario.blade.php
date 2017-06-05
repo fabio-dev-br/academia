@@ -7,7 +7,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         Informe abaixo as informações da despesa
-                        <a class="pull-right" href="{{ url ('despesa')}}">Listagem despesas</a>
+                        <a class="pull-right" href="{{ url ('despesas')}}">Listagem despesas</a>
                     </div>
 
                     <div class="panel-body">
@@ -16,7 +16,7 @@
                         @endif
 
                         @if(Request::is('*/editar'))
-                            {!! Form::model($despesa, ['method' => 'PATCH', 'url' => 'despesas/'.$despesas->id])!!}
+                            {!! Form::model($despesa, ['method' => 'PATCH', 'url' => 'despesas/'.$despesa->id])!!}
                         @else
                             {!! Form::open(['url' => 'despesas/salvar']) !!}
                         @endif
