@@ -39,7 +39,7 @@
                         {!! Form::input('text', 'nomepersonal', null, ['class' => 'form-control', 'placeholder' => 'Nome do Personal Trainer'])!!}
 
                         {!! Form::label('horario', 'Horário de Atendimento')!!}
-                        {!! Form::input('text', 'horario', null, ['class' => 'form-control', 'placeholder' => 'Horário de Atendimento'])!!}
+                        {!! Form::input('time', 'horario', null, ['class' => 'checkbox', 'placeholder' => 'Horário de Atendimento'])!!}
 
                         {!! Form::submit ('Salvar', ['class'=>'btn btn-primary'])!!}
                         {!! Form::close()!!}

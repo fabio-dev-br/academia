@@ -56,7 +56,7 @@
                         {!! Form::input('text', 'telefonecelular', null, ['class' => 'form-control', 'placeholder' => 'Telefone Celular'])!!}
 
                         {!! Form::label('email', 'Email')!!}
-                        {!! Form::input('text', 'email', null, ['class' => 'form-control', 'placeholder' => 'Email'])!!}
+                        {!! Form::input('email', 'email', null, ['class' => 'form-control', 'placeholder' => 'Email'])!!}
 
                         {!! Form::label('sexo', 'Sexo')!!}
                         <select name="sexo" class="form-control">

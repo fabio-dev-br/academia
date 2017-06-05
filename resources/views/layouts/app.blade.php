@@ -42,8 +42,11 @@
 							<li><a href="{{ url('/funcionarios')}}">Funcionários</a></li>
 							<li><a href="{{ url('/usuarios')}}">Usuários</a></li>
 							<li><a href="{{ url('/salas')}}">Salas</a></li>
-
-                            <li><a href="{{ url('/patrimonio')}}">Patrimonio</a></li>
+<<<<<<< HEAD
+                            <li><a href="{{ url('/patrimonios')}}">Patrimonios</a></li>
+=======
+                            <li><a href="{{ url('/patrimonios')}}">Patrimônios</a></li>
+>>>>>>> a9b9b89b1b59e4b9b89cdd6cfd6f1907cc403488
                             <li><a href="{{ url('/despesas')}}">Despesas</a></li>
 
 

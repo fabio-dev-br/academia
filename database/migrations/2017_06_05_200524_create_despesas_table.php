@@ -19,7 +19,7 @@ class CreateDespesasTable extends Migration
             $table->string('tipo', 60);
             $table->string('descrição', 60);
             $table->string('valor', 15);
-            $table->string('datadevencimento', 20);
+            $table->string('datadevencimento',20);
             $table->timestamps();
         });
     }

@@ -2,6 +2,13 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD:app/Http/Controllers/PatrimoniosController.php
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> a9b9b89b1b59e4b9b89cdd6cfd6f1907cc403488
+>>>>>>> master:app/Http/Controllers/PatrimoniosController.php
 use App\Patrimonio;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
@@ -11,7 +18,11 @@ class PatrimoniosController extends Controller
     public function index()
     {
         $patrimonios = Patrimonio::get();
+<<<<<<< HEAD:app/Http/Controllers/PatrimoniosController.php
         return view('patrimonios.lista', ['patrimonioss' => $patrimonios]);
+=======
+        return view('patrimonios.lista', ['patrimonios' => $patrimonios]);
+>>>>>>> master:app/Http/Controllers/PatrimoniosController.php
     }
 
     public function novo()
@@ -25,14 +36,22 @@ class PatrimoniosController extends Controller
 
         $patrimonio = $patrimonio->create($request->all());
 
+<<<<<<< HEAD:app/Http/Controllers/PatrimoniosController.php
         \Session::flash('mensagem_sucesso', 'patrimonio cadastrado com sucesso!');
+=======
+        \Session::flash('mensagem_sucesso', 'patrimonios cadastrado com sucesso!');
+>>>>>>> master:app/Http/Controllers/PatrimoniosController.php
 
         return Redirect::to('patrimonios/novo');
     }
     public function editar($id)
     {
         $patrimonio = Patrimonio::findOrFail($id);
+<<<<<<< HEAD:app/Http/Controllers/PatrimoniosController.php
         return view('patrimonios.formulario', ['patrimonio' => $patrimonio]);
+=======
+        return view('patrimonios.formulario', ['patrimonios' => $patrimonio]);
+>>>>>>> master:app/Http/Controllers/PatrimoniosController.php
     }
     public function atualizar($id, Request $request)
     {
@@ -45,7 +64,7 @@ class PatrimoniosController extends Controller
     {
         $patrimonio = Patrimonio::findOrFail($id);
         $patrimonio->delete();
-        \Session::flash('mensagem_sucesso', 'patrimonio deletado com sucesso!');
+        \Session::flash('mensagem_sucesso', 'Patrimonio deletado com sucesso!');
         return Redirect::to('patrimonios/');
     }
 }
