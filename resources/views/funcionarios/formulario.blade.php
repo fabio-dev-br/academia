@@ -66,7 +66,7 @@
                         </select>
 
                         {!! Form::label('carga', 'Carga Horária')!!}
-                            <select name="cargo" class="form-control">
+                            <select name="carga" class="form-control">
                                 <option value=""></option>
                                 <option value="4 horas">4 HORAS</option>
                                 <option value="5 horas">5 HORAS</option>
