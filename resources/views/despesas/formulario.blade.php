@@ -33,7 +33,7 @@
                         {!! Form::input('text', 'valor', null, ['class' => 'form-control', 'placeholder' => 'Valor'])!!}
 
                         {!! Form::label('datadevencimento', 'Data de Vencimento')!!}
-                        {!! Form::input('text', 'datadevencimento', null, ['class' => 'form-control', 'placeholder' => 'Data de Vencimento'])!!}
+                        {!! Form::input('date', 'datadevencimento', null, ['class' => 'checkbox', 'placeholder' => 'Data de Vencimento'])!!}
 
                         {!! Form::submit ('Salvar', ['class'=>'btn btn-primary'])!!}
                         {!! Form::close()!!}

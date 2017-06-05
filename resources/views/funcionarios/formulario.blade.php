@@ -44,7 +44,7 @@
                         </select>
 
                         {!! Form::label('datanascimento', 'Data de Nascimento')!!}
-                        {!! Form::input('text', 'datanascimento', null, ['class' => 'form-control', 'placeholder' => 'Data de Nascimento'])!!}
+                        {!! Form::input('date', 'datanascimento', null, ['class' => 'checkbox', 'placeholder' => 'Data de Nascimento'])!!}
 
                         {!! Form::label('endereço', 'Endereço')!!}
                         {!! Form::input('text', 'endereço', null, ['class' => 'form-control', 'placeholder' => 'Endereço'])!!}
