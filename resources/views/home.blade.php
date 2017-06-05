@@ -8,7 +8,7 @@
                 <div class="panel-heading">Bem-vindo</div>
 
                 <div class="panel-body">
-                    Você está logado!
+                    Você está logado no sistema SISGEFIT!
                 </div>
             </div>
         </div>
