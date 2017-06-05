@@ -5,8 +5,8 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Patrimonios
-                        <a class="pull-right" href="{{ url ('patrimonios/novo')}}">Novo Patrimonio</a>
+                    <div class="panel-heading">Patrimônios
+                        <a class="pull-right" href="{{ url ('patrimonios/novo')}}">Novo Patrimônio</a>
                     </div>
 
                     <div class="panel-body">
@@ -16,7 +16,7 @@
 
                         <table class="table">
                             <th>Nome</th>
-                            <th>numero</th>
+                            <th>Numero</th>
                             <th>Ações</th>
                             <tbody>
                             @foreach($patrimonios as $patrimonio)

@@ -20,18 +20,13 @@ Auth::routes();
 
 Route::get('home', 'HomeController@index')->name('home');
 
-<<<<<<< HEAD
-
-=======
-Route::get('patrimonios', 'PatrimoniossController@index');
+Route::get('patrimonios', 'PatrimoniosController@index');
 Route::get('patrimonios/novo', 'PatrimoniosController@novo');
-Route::get('patrimonios/{patrimonio}/editar', 'PatrimoniosController@editar');
+Route::get('patrimonios/{patrimonios}/editar', 'PatrimoniosController@editar');
 Route::post('patrimonios/salvar', 'PatrimoniosController@salvar');
-Route::patch('patrimonios/{patrimonio}', 'PatrimoniosController@atualizar');
-Route::delete('patrimonios/{patrimonio}', 'PatrimoniosController@deletar');
+Route::patch('patrimonios/{patrimonios}', 'PatrimoniosController@atualizar');
+Route::delete('patrimonios/{patrimonios}', 'PatrimoniosController@deletar');
 
-Route::get('despesas', 'DespesasController@index');
->>>>>>> d19bbefc0c98b9ba617e1b4d8e9d8a39db143e10
 Route::get('despesas', 'DespesasController@index');
 Route::get('despesas/novo', 'DespesasController@novo');
 Route::get('despesas/{despesa}/editar', 'DespesasController@editar');
@@ -59,6 +54,7 @@ Route::get('usuarios/{usuario}/editar', 'UsuariosController@editar');
 Route::post('usuarios/salvar', 'UsuariosController@salvar');
 Route::patch('usuarios/{usuario}', 'UsuariosController@atualizar');
 Route::delete('usuarios/{usuario}', 'UsuariosController@deletar');
+
 
 Route::get('salas', 'SalasController@index');
 Route::get('salas/novo', 'SalasController@novo');

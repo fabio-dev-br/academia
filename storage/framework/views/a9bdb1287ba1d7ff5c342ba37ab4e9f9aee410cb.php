@@ -43,7 +43,7 @@
 							<li><a href="<?php echo e(url('/usuarios')); ?>">Usuários</a></li>
 							<li><a href="<?php echo e(url('/salas')); ?>">Salas</a></li>
 
-                            <li><a href="<?php echo e(url('/patrimonio')); ?>">Patrimonio</a></li>
+                            <li><a href="<?php echo e(url('/patrimonios')); ?>">Patrimonio</a></li>
                             <li><a href="<?php echo e(url('/despesas')); ?>">Despesas</a></li>
 
 
