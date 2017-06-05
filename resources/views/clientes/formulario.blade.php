@@ -40,6 +40,7 @@
 
                         {!! Form::label('sexo', 'Sexo')!!}
                             <select name="sexo" class="form-control">
+                                <option value=""></option>
                                 <option value="Feminino">Feminino</option>
                                 <option value="Masculino">Masculino</option>
                             </select>
