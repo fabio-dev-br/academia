@@ -39,7 +39,10 @@
                         {!! Form::input('text', 'telefone', null, ['class' => 'form-control', 'placeholder' => 'Telefone'])!!}
 
                         {!! Form::label('sexo', 'Sexo')!!}
-                        {!! Form::input('text', 'sexo', null, ['class' => 'form-control', 'placeholder' => 'Sexo'])!!}
+                            <select name="sexo" class="form-control">
+                                <option value="Feminino">Feminino</option>
+                                <option value="Masculino">Masculino</option>
+                            </select>
 
                         {!! Form::submit ('Salvar', ['class'=>'btn btn-primary'])!!}
                         {!! Form::close()!!}
