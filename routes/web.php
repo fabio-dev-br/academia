@@ -20,6 +20,8 @@ Auth::routes();
 
 Route::get('home', 'HomeController@index')->name('home');
 
+Route::get('despesas', 'DespesasController@index');
+
 Route::get('clientes', 'ClientesController@index');//->name('home');
 Route::get('clientes/novo', 'ClientesController@novo');
 Route::get('clientes/{cliente}/editar', 'ClientesController@editar');
@@ -41,7 +43,7 @@ Route::post('usuarios/salvar', 'UsuariosController@salvar');
 Route::patch('usuarios/{usuario}', 'UsuariosController@atualizar');
 Route::delete('usuarios/{usuario}', 'UsuariosController@deletar');
 
-Route::get('patrimonio', 'patrimonioController@index');
+Route::get('patrimonio', 'PatrimonioController@index');
 
 Route::get('salas', 'SalasController@index');
 Route::get('salas/novo', 'SalasController@novo');
