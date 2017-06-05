@@ -20,7 +20,7 @@ Auth::routes();
 
 Route::get('home', 'HomeController@index')->name('home');
 
-Route::get('despesas', 'DespesasController@index');
+
 Route::get('despesas', 'DespesasController@index');
 Route::get('despesas/novo', 'DespesasController@novo');
 Route::get('despesas/{despesa}/editar', 'DespesasController@editar');

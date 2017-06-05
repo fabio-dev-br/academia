@@ -37,7 +37,7 @@
                         {!! Form::input('text', 'cargo', null, ['class' => 'form-control', 'placeholder' => 'Cargo'])!!}
 
                         {!! Form::label('datanascimento', 'Data de Nascimento')!!}
-                        {!! Form::input('text', 'datanascimento', null, ['class' => 'form-control', 'placeholder' => 'Data de Nascimento'])!!}
+                        {!! Form::input('date', 'datanascimento', null, ['class' => 'checkbox', 'placeholder' => 'Data de Nascimento'])!!}
 
                         {!! Form::label('endereço', 'Endereço')!!}
                         {!! Form::input('text', 'endereço', null, ['class' => 'form-control', 'placeholder' => 'Endereço'])!!}
@@ -49,7 +49,7 @@
                         {!! Form::input('text', 'telefonecelular', null, ['class' => 'form-control', 'placeholder' => 'Telefone Celular'])!!}
 
                         {!! Form::label('email', 'Email')!!}
-                        {!! Form::input('text', 'email', null, ['class' => 'form-control', 'placeholder' => 'Email'])!!}
+                        {!! Form::input('email', 'email', null, ['class' => 'form-control', 'placeholder' => 'Email'])!!}
 
                         {!! Form::label('sexo', 'Sexo')!!}
                         {!! Form::input('text', 'sexo', null, ['class' => 'form-control', 'placeholder' => 'Sexo'])!!}

@@ -27,7 +27,7 @@
                         {!! Form::input('text', 'nome', null, ['class' => 'form-control', 'autofocus', 'placeholder' => 'Nome de Usuário'])!!}
 
                         {!! Form::label('senha', 'Senha')!!}
-                        {!! Form::input('text', 'senha', null, ['class' => 'form-control', 'placeholder' => 'Senha'])!!}
+                        {!! Form::input('password', 'senha', null, ['class' => 'form-control', 'placeholder' => 'Senha'])!!}
 
                         {!! Form::submit ('Salvar', ['class'=>'btn btn-primary'])!!}
                         {!! Form::close()!!}
