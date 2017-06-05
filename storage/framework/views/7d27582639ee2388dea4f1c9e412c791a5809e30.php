@@ -51,8 +51,9 @@
 
                         <?php echo Form::label('sexo', 'Sexo'); ?>
 
-                        <?php echo Form::input('text', 'sexo', null, ['class' => 'form-control', 'placeholder' => 'Sexo']); ?>
+                        <select>
 
+                        </select>
 
                         <?php echo Form::submit ('Salvar', ['class'=>'btn btn-primary']); ?>
 
