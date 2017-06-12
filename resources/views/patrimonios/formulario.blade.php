@@ -21,7 +21,6 @@
                             {!! Form::open(['url' => 'patrimonios/salvar']) !!}
                         @endif
 
-
                         {!! Form::open(['url' => 'patrimonios/salvar'])!!}
 
                         {!! Form::label('nome', 'Nome')!!}

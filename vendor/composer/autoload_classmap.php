@@ -83,7 +83,7 @@ return array(
     'CreateDespesasTable' => $baseDir . '/database/migrations/2017_06_05_200524_create_despesas_table.php',
     'CreateFuncionariosTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_funcionarios_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
-    'CreatePatrimoniosTable' => $baseDir . '/database/migrations/2017_06_05_222734_create_patrimonios_table.php',
+    'CreatePatrimoniosTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_patrimonios_table.php',
     'CreateSalasTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_salas_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'CreateUsuariosTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_usuarios_table.php',

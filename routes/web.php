@@ -22,12 +22,11 @@ Route::get('home', 'HomeController@index')->name('home');
 
 Route::get('patrimonios', 'PatrimoniosController@index');
 Route::get('patrimonios/novo', 'PatrimoniosController@novo');
-Route::get('patrimonios/{patrimonios}/editar', 'PatrimoniosController@editar');
+Route::get('patrimonios/{patrimonio}/editar', 'PatrimoniosController@editar');
 Route::post('patrimonios/salvar', 'PatrimoniosController@salvar');
-Route::patch('patrimonios/{patrimonios}', 'PatrimoniosController@atualizar');
-Route::delete('patrimonios/{patrimonios}', 'PatrimoniosController@deletar');
+Route::patch('patrimonios/{patrimonio}', 'PatrimoniosController@atualizar');
+Route::delete('patrimonios/{patrimonio}', 'PatrimoniosController@deletar');
 
-Route::get('despesas', 'DespesasController@index');
 Route::get('despesas', 'DespesasController@index');
 Route::get('despesas/novo', 'DespesasController@novo');
 Route::get('despesas/{despesa}/editar', 'DespesasController@editar');

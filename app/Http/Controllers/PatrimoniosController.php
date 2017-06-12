@@ -25,7 +25,7 @@ class PatrimoniosController extends Controller
 
         $patrimonio = $patrimonio->create($request->all());
 
-        \Session::flash('mensagem_sucesso', 'patrimonios cadastrado com sucesso!');
+        \Session::flash('mensagem_sucesso', 'Patrimonio cadastrado com sucesso!');
 
         return Redirect::to('patrimonios/novo');
     }
