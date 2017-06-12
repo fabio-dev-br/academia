@@ -9,7 +9,8 @@ class Sala extends Model{
         'codigo',
         'situacao',
         'nomepersonal',
-        'horario'
+        'horario1',
+        'horario2'
     ];
 
 }
