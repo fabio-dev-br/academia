@@ -30,6 +30,8 @@
                         {!! Form::label('numero', 'Número')!!}
                         {!! Form::input('text', 'numero', null, ['class' => 'form-control', 'placeholder' => 'Número'])!!}
 
+                        {!! Form::label('quantidade', 'Quantidade')!!}
+                        {!! Form::input('text', 'quantidade', null, ['class' => 'form-control', 'placeholder' => 'Quantidade'])!!}
 
                         {!! Form::submit ('Salvar', ['class'=>'btn btn-primary'])!!}
                         {!! Form::close()!!}

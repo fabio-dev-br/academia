@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> a9b9b89b1b59e4b9b89cdd6cfd6f1907cc403488
 use App\Patrimonio;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
