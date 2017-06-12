@@ -16,12 +16,9 @@
 
                         <table class="table">
                             <th>Nome</th>
-<<<<<<< HEAD:resources/views/patrimonios/lista.blade.php
                             <th>Número</th>
                             <th>Quantidade</th>
-=======
                             <th>Numero</th>
->>>>>>> a9b9b89b1b59e4b9b89cdd6cfd6f1907cc403488:resources/views/patrimonios/lista.blade.php
                             <th>Ações</th>
                             <tbody>
                             @foreach($patrimonios as $patrimonio)

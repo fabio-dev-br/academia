@@ -28,10 +28,7 @@ Route::patch('patrimonios/{patrimonios}', 'PatrimoniosController@atualizar');
 Route::delete('patrimonios/{patrimonios}', 'PatrimoniosController@deletar');
 
 Route::get('despesas', 'DespesasController@index');
-<<<<<<< HEAD
 Route::get('despesas', 'DespesasController@index');
-=======
->>>>>>> a9b9b89b1b59e4b9b89cdd6cfd6f1907cc403488
 Route::get('despesas/novo', 'DespesasController@novo');
 Route::get('despesas/{despesa}/editar', 'DespesasController@editar');
 Route::post('despesas/salvar', 'DespesasController@salvar');

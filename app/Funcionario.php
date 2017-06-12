@@ -4,7 +4,8 @@ namespace App;
 
 use illuminate\Database\Eloquent\Model;
 
-class Funcionario extends Model{
+class Funcionario extends Model
+{
     protected $fillable = [
         'nome',
         'cpf',

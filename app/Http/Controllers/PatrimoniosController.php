@@ -2,10 +2,6 @@
 
 namespace App\Http\Controllers;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a9b9b89b1b59e4b9b89cdd6cfd6f1907cc403488
 use App\Patrimonio;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
@@ -36,7 +32,7 @@ class PatrimoniosController extends Controller
     public function editar($id)
     {
         $patrimonio = Patrimonio::findOrFail($id);
-        return view('patrimonios.formulario', ['patrimonios' => $patrimonio]);
+        return view('patrimonios.formulario', ['patrimonio' => $patrimonio]);
     }
     public function atualizar($id, Request $request)
     {
