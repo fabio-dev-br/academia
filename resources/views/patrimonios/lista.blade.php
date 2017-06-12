@@ -16,7 +16,7 @@
 
                         <table class="table">
                             <th>Nome</th>
-                            <th>Número</th>
+                            <th>Código</th>
                             <th>Quantidade</th>
                             <th>Ações</th>
                             <tbody>

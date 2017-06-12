@@ -27,8 +27,8 @@
                         {!! Form::label('nome', 'Nome')!!}
                         {!! Form::input('text', 'nome', null, ['class' => 'form-control', 'autofocus', 'placeholder' => 'Nome'])!!}
 
-                        {!! Form::label('numero', 'Número')!!}
-                        {!! Form::input('text', 'numero', null, ['class' => 'form-control', 'placeholder' => 'Número'])!!}
+                        {!! Form::label('numero', 'Código')!!}
+                        {!! Form::input('text', 'numero', null, ['class' => 'form-control', 'placeholder' => 'Código'])!!}
 
                         {!! Form::label('quantidade', 'Quantidade')!!}
                         {!! Form::input('text', 'quantidade', null, ['class' => 'form-control', 'placeholder' => 'Quantidade'])!!}

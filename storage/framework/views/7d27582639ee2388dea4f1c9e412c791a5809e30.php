@@ -51,9 +51,11 @@
 
                         <?php echo Form::label('sexo', 'Sexo'); ?>
 
-                        <select>
-
-                        </select>
+                            <select name="sexo" class="form-control">
+                                <option value=""></option>
+                                <option value="Masculino">Masculino</option>
+                                <option value="Feminino">Feminino</option>
+                            </select>
 
                         <?php echo Form::submit ('Salvar', ['class'=>'btn btn-primary']); ?>
 

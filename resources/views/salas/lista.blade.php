@@ -27,7 +27,7 @@
                                     <td>{{$sala->codigo}}</td>
                                     <td>{{$sala->situacao}}</td>
                                     <td>{{$sala->nomepersonal}}</td>
-                                    <td>{{$sala->horario}}</td>
+                                    <td>{{$sala->horario1}} - {{$sala->horario2}}</td>
                                     <td>
                                         <a href="salas/{{$sala->id}}/editar" class="btn btn-default btn-sm">Editar</a>
                                         {!! Form::open(['style' => 'display: inline', 'method' => 'DELETE', 'url' => '/salas/'.$sala->id]) !!}

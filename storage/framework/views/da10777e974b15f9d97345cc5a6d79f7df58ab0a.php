@@ -25,7 +25,7 @@
                                     <td><?php echo e($sala->codigo); ?></td>
                                     <td><?php echo e($sala->situacao); ?></td>
                                     <td><?php echo e($sala->nomepersonal); ?></td>
-                                    <td><?php echo e($sala->horario); ?></td>
+                                    <td><?php echo e($sala->horario1); ?> - <?php echo e($sala->horario2); ?></td>
                                     <td>
                                         <a href="salas/<?php echo e($sala->id); ?>/editar" class="btn btn-default btn-sm">Editar</a>
                                         <?php echo Form::open(['style' => 'display: inline', 'method' => 'DELETE', 'url' => '/salas/'.$sala->id]); ?>

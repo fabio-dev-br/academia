@@ -18,7 +18,8 @@ class CreateSalasTable extends Migration
             $table->string('codigo', 10);
             $table->string('situacao', 15);
             $table->string('nomepersonal', 60);
-            $table->string('horario', 30);
+            $table->string('horario1', 30);
+            $table->string('horario2', 30);
             $table->timestamps();
         });
     }
