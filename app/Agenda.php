@@ -8,6 +8,7 @@ class Agenda extends Model
 {
     protected $fillable = [
         'personaltrainer',
+        'data',
         'horarioinicio',
         'horariofim',
         'tipotreino',

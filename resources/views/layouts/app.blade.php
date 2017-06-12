@@ -44,7 +44,7 @@
 							<li><a href="{{ url('/salas')}}">Salas</a></li>
                             <li><a href="{{ url('/patrimonios')}}">Patrimônios</a></li>
                             <li><a href="{{ url('/despesas')}}">Despesas</a></li>
-
+                            <li><a href="{{ url('/agendas')}}">Agendas</a></li>
 
 						@endif
 					</ul>
