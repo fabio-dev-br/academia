@@ -1,7 +1,7 @@
 <?php $__env->startSection('content'); ?>
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-15 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         Informe abaixo as informações do funcionário
@@ -42,12 +42,18 @@
 
                         <?php echo Form::label('cargo', 'Cargo'); ?>
 
-                        <?php echo Form::input('text', 'cargo', null, ['class' => 'form-control', 'placeholder' => 'Cargo']); ?>
-
+                        <select name="cargo" class="form-control">
+                            <option value=""></option>
+                            <option value="Administrador">Administrador</option>
+                            <option value="Atendente">Atendente</option>
+                            <option value="Instrutor">Instrutor</option>
+                            <option value="Personal Trainer">Personal Trainer</option>
+                            <option value="Outro">Outro</option>
+                        </select>
 
                         <?php echo Form::label('datanascimento', 'Data de Nascimento'); ?>
 
-                        <?php echo Form::input('text', 'datanascimento', null, ['class' => 'form-control', 'placeholder' => 'Data de Nascimento']); ?>
+                        <?php echo Form::input('date', 'datanascimento', null, ['class' => 'checkbox', 'placeholder' => 'Data de Nascimento']); ?>
 
 
                         <?php echo Form::label('endereço', 'Endereço'); ?>
@@ -67,18 +73,28 @@
 
                         <?php echo Form::label('email', 'Email'); ?>
 
-                        <?php echo Form::input('text', 'email', null, ['class' => 'form-control', 'placeholder' => 'Email']); ?>
+                        <?php echo Form::input('email', 'email', null, ['class' => 'form-control', 'placeholder' => 'Email']); ?>
 
 
                         <?php echo Form::label('sexo', 'Sexo'); ?>
 
-                        <?php echo Form::input('text', 'sexo', null, ['class' => 'form-control', 'placeholder' => 'Sexo']); ?>
-
+                        <select name="sexo" class="form-control">
+                            <option value=""></option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Masculino">Masculino</option>
+                        </select>
 
                         <?php echo Form::label('carga', 'Carga Horária'); ?>
 
-                        <?php echo Form::input('text', 'carga', null, ['class' => 'form-control', 'placeholder' => 'Carga Horária']); ?>
-
+                            <select name="carga" class="form-control">
+                                <option value=""></option>
+                                <option value="4 horas">4 HORAS</option>
+                                <option value="5 horas">5 HORAS</option>
+                                <option value="6 horas">6 HORAS</option>
+                                <option value="7 horas">7 HORAS</option>
+                                <option value="8 horas">8 HORAS</option>
+                                <option value="9 horas">9 HORAS</option>
+                            </select>
 
                         <?php echo Form::submit ('Salvar', ['class'=>'btn btn-primary']); ?>
 
@@ -90,5 +106,6 @@
         </div>
     </div>
 <?php $__env->stopSection(); ?>
+
 
 <?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
