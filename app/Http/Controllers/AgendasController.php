@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Despesa;
+use App\Agenda;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 
@@ -21,7 +21,7 @@ class AgendasController extends Controller
 
     public function salvar(Request $request)
     {
-        $agenda = new Agendas();
+        $agenda = new Agenda();
 
         $agenda = $agenda->create($request->all());
 

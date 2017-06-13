@@ -18,8 +18,8 @@ class CreateAgendasTable extends Migration
             $table->increments('id');
             $table->string('personaltrainer', 60);
             $table->string('data', 15);
-            $table->string('hoarioinicio', 15);
-            $table->string('hoariofim', 15);
+            $table->string('horarioinicio', 15);
+            $table->string('horariofim', 15);
             $table->string('tipotreino', 60);
             $table->string('unidade', 20);
 

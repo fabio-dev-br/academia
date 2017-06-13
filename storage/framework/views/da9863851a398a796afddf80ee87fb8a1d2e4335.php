@@ -44,7 +44,7 @@
 							<li><a href="<?php echo e(url('/salas')); ?>">Salas</a></li>
                             <li><a href="<?php echo e(url('/patrimonios')); ?>">Patrimônios</a></li>
                             <li><a href="<?php echo e(url('/despesas')); ?>">Despesas</a></li>
-
+                            <li><a href="<?php echo e(url('/agendas')); ?>">Agendas</a></li>
 
 						<?php endif; ?>
 					</ul>
