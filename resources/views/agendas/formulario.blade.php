@@ -30,13 +30,21 @@
                         {!! Form::input('date', 'data', null, ['class' => 'form-control', 'placeholder' => 'Data'])!!}
 
                         {!! Form::label('horarioinicio', 'Horario Inicio')!!}
-                        {!! Form::input('hour', 'horarioinicio', null, ['class' => 'form-control', 'placeholder' => 'Horario Inicio'])!!}
+                        {!! Form::input('time', 'horarioinicio', null, ['class' => 'checkbox', 'placeholder' => 'Horario Inicio'])!!}
 
                         {!! Form::label('horariofim', 'Horario Fim')!!}
-                        {!! Form::input('hour', 'horariofim', null, ['class' => 'form-control', 'placeholder' => 'Horario Fim'])!!}
+                        {!! Form::input('time', 'horariofim', null, ['class' => 'checkbox', 'placeholder' => 'Horario Fim'])!!}
 
                         {!! Form::label('tipotreino', 'Tipo de Treino')!!}
-                        {!! Form::input('text', 'tipotreino', null, ['class' => 'checkbox', 'placeholder' => 'Tipo de Treino'])!!}
+                            <select name="tipotreino" class="form-control">
+                                <option value=""></option>
+                                <option value="CrossFit">CrossFit</option>
+                                <option value="Musculação">Musculação</option>
+                                <option value="Dança">Dança</option>
+                                <option value="Pilates">Pilates</option>
+                                <option value="Spinning">Spinning</option>
+                                <option value="Jump">Jump</option>
+                            </select>
 
                         {!! Form::label('unidade', 'Unidade')!!}
                         {!! Form::input('text', 'unidade', null, ['class' => 'form-control', 'placeholder' => 'Unidade'])!!}

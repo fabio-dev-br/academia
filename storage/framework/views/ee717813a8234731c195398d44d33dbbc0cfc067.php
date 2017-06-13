@@ -31,8 +31,13 @@
 
                         <?php echo Form::label('situacao', 'Situação da Sala'); ?>
 
-                        <?php echo Form::input('text', 'situacao', null, ['class' => 'form-control', 'placeholder' => 'Situação da Sala']); ?>
-
+                        <select name="situacao" class="form-control">
+                            <option value=""></option>
+                            <option value="Livre">Livre</option>
+                            <option value="Em Manutenção">Em Manutenção</option>
+                            <option value="Fechado para limpeza">Fechado para limpeza</option>
+                            <option value="Em uso">Em uso</option>
+                        </select>
 
                         <?php echo Form::label('nomepersonal', 'Nome do Personal Trainer'); ?>
 

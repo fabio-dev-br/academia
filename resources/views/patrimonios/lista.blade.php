@@ -18,10 +18,7 @@
                             <th>Nome</th>
                             <th>Número</th>
                             <th>Quantidade</th>
-<<<<<<< HEAD
-=======
                             <th>Numero</th>
->>>>>>> master
                             <th>Ações</th>
                             <tbody>
                             @foreach($patrimonios as $patrimonio)
