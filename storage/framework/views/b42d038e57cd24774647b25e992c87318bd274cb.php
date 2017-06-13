@@ -1,7 +1,7 @@
 <?php $__env->startSection('content'); ?>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-13 col-md-offset-0">
                 <div class="panel panel-default">
                     <div class="panel-heading">Funcionários
                         <a class="pull-right" href="<?php echo e(url ('funcionarios/novo')); ?>">Novo Funcionário</a>
