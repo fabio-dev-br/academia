@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 use App\Patrimonio;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
@@ -26,7 +29,11 @@ class PatrimoniosController extends Controller
 
         $patrimonio = $patrimonio->create($request->all());
 
+<<<<<<< HEAD
         \Session::flash('mensagem_sucesso', 'patrimonio cadastrado com sucesso!');
+=======
+        \Session::flash('mensagem_sucesso', 'Patrimonio cadastrado com sucesso!');
+>>>>>>> master
 
         return Redirect::to('patrimonios/novo');
     }

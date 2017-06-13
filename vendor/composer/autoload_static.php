@@ -298,11 +298,13 @@ class ComposerStaticInit1dc509c9afed4b0f2341f85afd61e11a
     );
 
     public static $classMap = array (
+        'App\\Agenda' => __DIR__ . '/../..' . '/app/Agenda.php',
         'App\\Cliente' => __DIR__ . '/../..' . '/app/Cliente.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Despesa' => __DIR__ . '/../..' . '/app/Despesa.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Funcionario' => __DIR__ . '/../..' . '/app/Funcionario.php',
+        'App\\Http\\Controllers\\AgendasController' => __DIR__ . '/../..' . '/app/Http/Controllers/AgendasController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
@@ -375,11 +377,12 @@ class ComposerStaticInit1dc509c9afed4b0f2341f85afd61e11a
         'Collective\\Html\\HtmlBuilder' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlBuilder.php',
         'Collective\\Html\\HtmlFacade' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlFacade.php',
         'Collective\\Html\\HtmlServiceProvider' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlServiceProvider.php',
+        'CreateAgendasTable' => __DIR__ . '/../..' . '/database/migrations/2017_06_12_235242_create_agendas_table.php',
         'CreateClientesTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_clientes_table.php',
         'CreateDespesasTable' => __DIR__ . '/../..' . '/database/migrations/2017_06_05_200524_create_despesas_table.php',
         'CreateFuncionariosTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_funcionarios_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
-        'CreatePatrimoniosTable' => __DIR__ . '/../..' . '/database/migrations/2017_06_05_222734_create_patrimonios_table.php',
+        'CreatePatrimoniosTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_patrimonios_table.php',
         'CreateSalasTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_salas_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'CreateUsuariosTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_usuarios_table.php',

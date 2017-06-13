@@ -6,11 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Agenda' => $baseDir . '/app/Agenda.php',
     'App\\Cliente' => $baseDir . '/app/Cliente.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Despesa' => $baseDir . '/app/Despesa.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Funcionario' => $baseDir . '/app/Funcionario.php',
+    'App\\Http\\Controllers\\AgendasController' => $baseDir . '/app/Http/Controllers/AgendasController.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
     'App\\Http\\Controllers\\Auth\\RegisterController' => $baseDir . '/app/Http/Controllers/Auth/RegisterController.php',
@@ -79,11 +81,12 @@ return array(
     'Collective\\Html\\HtmlBuilder' => $vendorDir . '/laravelcollective/html/src/HtmlBuilder.php',
     'Collective\\Html\\HtmlFacade' => $vendorDir . '/laravelcollective/html/src/HtmlFacade.php',
     'Collective\\Html\\HtmlServiceProvider' => $vendorDir . '/laravelcollective/html/src/HtmlServiceProvider.php',
+    'CreateAgendasTable' => $baseDir . '/database/migrations/2017_06_12_235242_create_agendas_table.php',
     'CreateClientesTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_clientes_table.php',
     'CreateDespesasTable' => $baseDir . '/database/migrations/2017_06_05_200524_create_despesas_table.php',
     'CreateFuncionariosTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_funcionarios_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
-    'CreatePatrimoniosTable' => $baseDir . '/database/migrations/2017_06_05_222734_create_patrimonios_table.php',
+    'CreatePatrimoniosTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_patrimonios_table.php',
     'CreateSalasTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_salas_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'CreateUsuariosTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_usuarios_table.php',

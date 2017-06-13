@@ -35,7 +35,7 @@ class DespesasController extends Controller
         return view('despesas.formulario', ['despesa' => $despesa]);
     }
     public function atualizar($id, Request $request)
-    {
+{
         $despesa = Despesa::findOrFail($id);
         $despesa->update($request->all());
         \Session::flash('mensagem_sucesso', 'Despesa atualizado com sucesso!');
