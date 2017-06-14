@@ -70,7 +70,12 @@ Route::post('salas/salvar', 'SalasController@salvar');
 Route::patch('salas/{sala}', 'SalasController@atualizar');
 Route::delete('salas/{sala}', 'SalasController@deletar');
 
-
+Route::get('treinos', 'TreinosController@index');
+Route::get('treinos/novo', 'TreinosController@novo');
+Route::get('treinos/{treino}/editar', 'TreinosController@editar');
+Route::post('treinos/salvar', 'TreinosController@salvar');
+Route::patch('treinos/{treino}', 'TreinosController@atualizar');
+Route::delete('treinos/{treino}', 'TreinosController@deletar');
 
 Auth::routes();
 
