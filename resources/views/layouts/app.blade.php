@@ -42,10 +42,10 @@
 							<li><a href="{{ url('/funcionarios')}}">Funcionários</a></li>
 							<li><a href="{{ url('/usuarios')}}">Usuários</a></li>
 							<li><a href="{{ url('/salas')}}">Salas</a></li>
-                            <li><a href="{{ url('/patrimonios')}}">Patrimônios</a></li>
-                            <li><a href="{{ url('/despesas')}}">Despesas</a></li>
-                            <li><a href="{{ url('/agendas')}}">Agendas</a></li>
-
+                            				<li><a href="{{ url('/patrimonios')}}">Patrimônios</a></li>
+                            				<li><a href="{{ url('/despesas')}}">Despesas</a></li>
+                           				<li><a href="{{ url('/agendas')}}">Agendas</a></li>
+							<li><a href="{{ url('/treinos')}}">Treinos</a></li>
 						@endif
 					</ul>
 
