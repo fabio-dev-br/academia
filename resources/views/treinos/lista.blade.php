@@ -16,6 +16,7 @@
                         @endif
 
                         <table class="table">
+                            <th>Nome do Aluno</th>
                             <th>Tipo de Treino</th>
                             <th>Nome Exercício</th>
                             <th>Repetições</th>
@@ -25,6 +26,7 @@
                             <tbody>
                             @foreach($treinos as $treino)
                                 <tr>
+                                    <td>{{$treino->nomedoaluno}}</td>
                                     <td>{{$treino->tipo}}</td>
                                     <td>{{$treino->exercicio}}</td>
                                     <td>{{$treino->repeticao}}</td>

@@ -37,7 +37,11 @@
                             <option value="Alongamento">Alongamento</option>
                         </select>
 
-                        {!! Form::label('exercicio', 'Nome do Exercício')!!}
+                            {!! Form::label('nomedoaluno', 'Nome do Aluno')!!}
+                            {!! Form::input('text', 'nomedoaluno', null, ['class' => 'form-control', 'placeholder' => 'Nome do Aluno'])!!}
+
+
+                            {!! Form::label('exercicio', 'Nome do Exercício')!!}
                         {!! Form::input('text', 'exercicio', null, ['class' => 'form-control', 'placeholder' => 'Nome do Exercício'])!!}
 
                         {!! Form::label('repeticao', 'Repetições')!!}
